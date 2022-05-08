@@ -10,14 +10,14 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Button, Space } from 'wearmy';
+import { Button, Space, ConfigProvider } from 'wearmy';
 
 export default () => {
   return (
     <Space>
       <Button>默认</Button>
       <Button type='primary'>Primary</Button>
-      <Button type='secondary'>Secondary</Button>
+      <Button type='link'>Link</Button>
       <Button type='danger'>Danger</Button>
     </Space>
   )
