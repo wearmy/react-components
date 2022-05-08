@@ -9,7 +9,7 @@ import React from 'react';
 import { Button as AtButton, ButtonProps } from 'antd';
 
 function Button (props: ButtonProps) {
-  return <AtButton {...props} />
+  return <AtButton type='primary' {...props} />
 }
 
 export default Button;
