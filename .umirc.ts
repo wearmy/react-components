@@ -18,6 +18,7 @@ export default defineConfig({
   logo: './logo.png', 
   outputPath: 'docs-dist',
   mode: 'site',
+  // mock: {},
   extraBabelPlugins: [
     [
       'import',
