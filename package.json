@@ -1,6 +1,6 @@
 {
-  "private": true,
-  "name": "wearmy",
+  "private": false,
+  "name": "@wearmy/react-components",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
@@ -15,6 +15,12 @@
   },
   "module": "es/index.js",
   "typings": "es/index.d.ts",
+  "files": [
+    "es",
+    "package.json",
+    "README.md",
+    "typings.d.ts"
+  ],
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
